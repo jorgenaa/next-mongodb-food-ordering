@@ -1,0 +1,59 @@
+.card {
+    @apply border border-secondary rounded-md;
+    flex-basis: 280px;
+}
+
+.card--hover:hover {
+    @apply border-4 border-green delay-100 duration-100;
+    
+}
+
+.card__img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    //border-radius: 5px;
+    object-fit: contain;
+    width: 100% !important;
+}
+
+.card__img--hover:hover {
+    transform: scale(1.15);
+}
+
+.card__body {
+    @apply flex flex-col content-between text-center px-2;
+    min-height: 120px;
+}
+
+.card__title {
+    @apply font-medium pt-1 flex-auto self-start mt-2 mx-auto;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.card__price {
+    @apply font-semibold text-base mx-auto self-end mb-4;
+    letter-spacing: 0.5px;
+}
+
+.card__icon {
+    @apply font-semibold text-base self-center ;
+}
+
+.card__extra {
+    @apply font-semibold text-base self-center mb-2;
+}
+
+@media screen and (max-width: 768px) {
+    /* .card {
+        @apply w-full;
+        flex-basis: none;
+    } */
+ }
+
+ @media screen and (max-width: 625px) {
+    .card {
+        @apply w-full;
+        flex-basis: none;
+    } 
+}

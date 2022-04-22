@@ -1,0 +1,67 @@
+
+.productItem__container {
+  @apply py-1;
+}
+
+.productItem__remove {
+  @apply cursor-pointer text-2xl mb-1 text-white;
+}
+
+.productItem__remove--hover:hover {
+  @apply text-red;
+}
+
+.productItem__title {
+  @apply text-lg font-semibold mr-4 basis-8/12 ;
+}
+
+.productItem__price {
+  @apply text-white;
+}
+
+.productItem__footer {
+  @apply flex justify-between;
+}
+
+.productItem__counter {
+  @apply w-16 flex justify-between items-center;
+}
+
+.productItem__quantity{
+  @apply text-base font-normal text-white;
+}
+
+.productItem__cta-container {
+    @apply flex ;
+}
+
+.productItem__btn-container {
+    @apply rounded-full text-xl flex justify-center items-center text-white;
+}
+
+.productItem__checkoutBtn {
+  @apply w-full mb-4 rounded-md bg-green text-white border-none font-medium cursor-pointer;
+  height: 40px;
+}
+
+.productItem__checkoutBtn--hover:hover {
+  @apply bg-green opacity-80;
+}
+
+.productItem__buyMoreBtn {
+  @apply w-full rounded-md bg-black text-white border-none font-medium cursor-pointer;
+  height: 40px;
+}
+
+.productItem__buyMoreBtn--hover:hover {
+  @apply bg-black opacity-80;
+}
+
+@media screen and (max-width: 480px) {
+ 
+
+}
+
+
+
+  

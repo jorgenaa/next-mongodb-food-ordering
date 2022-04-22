@@ -1,0 +1,46 @@
+.form {
+    @apply w-full flex justify-center flex-col mx-auto p-8 ;
+    max-width: 500px;
+   
+}
+
+.form__title {
+    @apply mb-4 text-xl font-semibold;
+}
+
+.form__element {
+    margin: 10px 0;
+	width: 100%;
+}
+
+.form__input {
+    @apply border border-black rounded-md mb-2 p-2 w-full text-base;
+  
+}
+
+.form__label {
+    @apply font-semibold mb-2 text-base;
+}
+
+.form__textArea {
+    @apply border border-black rounded-md mb-2 p-2 w-full text-base;
+    height: 150px;
+}
+
+.form__btn {
+    @apply w-full bg-black text-white rounded-md border-none font-medium cursor-pointer transition ease-in-out duration-150;
+    height: 40px;
+}
+
+.form__btn--hover:hover {
+    @apply opacity-80;
+}
+
+.form__redirect {
+    @apply w-full flex justify-evenly mt-2 text-sm;
+}
+
+.form__link {
+    @apply text-black font-semibold border-b-2 border-black;
+    
+}

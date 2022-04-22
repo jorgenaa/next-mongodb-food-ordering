@@ -1,0 +1,54 @@
+.cartSideBar {
+  @apply w-80 flex flex-col bg-secondary text-secondary fixed top-0 z-10 transition-all ease-in-out duration-500; 
+}
+
+.cartSideBar--close {
+  @apply -right-80 ;
+}
+
+.cartSideBar--open {
+  @apply right-0 ;
+}
+
+.cart {
+    @apply flex justify-center mt-8;
+}
+  
+.cartSideBar__title {
+  @apply text-xl font-bold mb-4;
+  
+}
+  
+.cartSideBar__priceDescript {
+  @apply py-3 text-base text-white;
+}
+    
+
+.cartSideBar__total-amount {
+  @apply text-xl font-semibold mb-4;
+}
+
+.cartSideBar__checkoutBtn {
+  @apply w-full mb-4 rounded-md bg-green text-white border-none font-medium cursor-pointer transition ease-in-out duration-150;
+  height: 40px;
+}
+
+.cartSideBar__checkoutBtn--hover:hover {
+  @apply bg-green opacity-80;
+}
+
+.cartSideBar__buyMoreBtn {
+  @apply w-full rounded-md bg-accents-8 text-white border-none font-medium cursor-pointer;
+  height: 40px;
+}
+
+.cartSideBar__buyMoreBtn--hover:hover {
+  @apply bg-accents-8 opacity-80;
+}
+
+@media screen and (max-width: 480px) {
+ 
+  
+}
+  
+    

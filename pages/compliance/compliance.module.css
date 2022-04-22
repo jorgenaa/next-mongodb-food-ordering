@@ -1,0 +1,30 @@
+.compliance {
+    @apply grid-cols-1 grid-rows-1 max-w-screen-lg items-center mx-auto my-8 px-8;
+}
+
+.compliance__section {
+    @apply mx-auto;
+    max-width: 1366px;
+}
+
+.compliance__heading {
+    @apply font-bold text-3xl mb-8 text-center;
+}
+
+.compliance__heading-two {
+    @apply font-bold text-xl mb-4;
+}
+
+.compliance__heading-two:first-child {
+    @apply mt-4;
+}
+
+.compliance__text {
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.compliance__divider {
+    @apply my-8;
+}

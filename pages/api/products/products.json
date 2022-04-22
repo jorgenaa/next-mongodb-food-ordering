@@ -1,0 +1,740 @@
+{"products":[{
+  "_id": "62065d38a80e625ec6540c1c",
+  "slug": "starters",
+  "category_title": "Foretter",
+  "title": "Misosuppe",
+  "description": "Tradisjonell japansk suppe av fiskekraft serveres m sjøgress, tofu og kamskjell. Toppes med sesamfrø og vårløk.",
+  "img": "/img/starter_misosuppe.jpg",
+  "alt": "Misosuppe",
+  "price": 45,
+  "extraInfo": "",
+  "price_id": "price_1KX684Kj0V8wtllqVnt5sY7O"
+},{
+  "_id": "62065d38a80e625ec6540c1d",
+  "slug": "starters",
+  "category_title": "Foretter",
+  "title": "Hjemmelaget Vårruller 2 stk",
+  "description": "Kjøttfarse av svin, scampi og grønnsaker rulles i deigpapir og frityrstekes. Serveres i to stk med sursøtsaus og salat.",
+  "img": "/img/starter_springrolls.jpg",
+  "alt": "Hjemmelaget Vårrull",
+  "price": 75,
+  "extraInfo": "",
+  "price_id": "price_1KXp58Kj0V8wtllqxVylG1lJ"
+},{
+  "_id": "62065d38a80e625ec6540c1e",
+  "slug": "starters",
+  "category_title": "Foretter",
+  "title": "Vegetar Vårruller 2 stk",
+  "description": "Tofu, egg og ferske grønnsaker rulles i deigpapir og frityrstekes. Serveres i to stk med sursøtsaus og salat.",
+  "img": "/img/starter_veganspringrolls.jpg",
+  "alt": "Vegetar Vårrull",
+  "price": 75,
+  "extraInfo": "VG",
+  "price_id": "price_1KXp6eKj0V8wtllqGX6uZiU4"
+},{
+  "_id": "62065d38a80e625ec6540c1f",
+  "slug": "starters",
+  "category_title": "Foretter",
+  "title": "Sommerrull - 6 biter",
+  "description": "Kokt scampi, stekt kylling, agurk, salat, koriander og risnudler, rulles i rispapir. Serveres i 6 biter med sursøtsaus som toppes med peanøtter.",
+  "img": "/img/starter_summerrolls.jpg",
+  "alt": "Sommerrull",
+  "price": 99,
+  "extraInfo": "",
+  "price_id": "price_1KXp7xKj0V8wtllq4YdFBsVu"
+},{
+  "_id": "62065d38a80e625ec6540c20",
+  "slug": "starters",
+  "category_title": "Foretter",
+  "title": "Tempura Tallerken",
+  "description": "4 stk. scampi dyppet i hjemmelaget tempuramel og fritystekes. Serveres med tempura-saus og salat.",
+  "img": "/img/starter_tempuratallerken.jpg",
+  "alt": "Tempura Tallerken",
+  "price": 99,
+  "extraInfo": "",
+  "price_id": "price_1KXp9QKj0V8wtllqBekL4u8n"
+},{
+  "_id": "62065d38a80e625ec6540c21",
+  "slug": "starters",
+  "category_title": "Foretter",
+  "title": "Soyabønner/Edamame",
+  "description": "Stekte soyabønner serveres m hvitløk, salt og soyasaus. (Alternativ kokte soyebønner serveres m havsalt).",
+  "img": "/img/starter_soybeans.jpg",
+  "alt": "Soyabønner",
+  "price": 65,
+  "extraInfo": "VG",
+  "price_id": "price_1KXpAIKj0V8wtllqbZRLlvBf"
+},{
+  "_id": "62065d38a80e625ec6540c22",
+  "slug": "starterSashimis",
+  "category_title": "Forrett Sashimi Salat",
+  "title": "Laks sashimi salat",
+  "description": "Laks sashimi salat serveres med avokado, toppes med semsamfrø og sesam-dressing.",
+  "img": "/img/starter_salmonsashimisalad.jpg",
+  "alt": "Laks sashimi salat",
+  "price": 109,
+  "extraInfo": "",
+  "price_id": "price_1KXpAqKj0V8wtllqyv70ozmE"
+},{
+  "_id": "62065d38a80e625ec6540c23",
+  "slug": "starterSashimis",
+  "category_title": "Forrett Sashimi Salat",
+  "title": "Tunfisk sashimi salat",
+  "description": "Tunnfisk sashimi salat serveres med avokado, toppes med semsamfrø og sesam-dressing.",
+  "img": "/img/starter_tunasashimisalad.jpg",
+  "alt": "Tunfisk sashimi salat",
+  "price": 119,
+  "extraInfo": "",
+  "price_id": "price_1KXpBRKj0V8wtllqP3VUU7b1"
+},{
+  "_id": "62065d38a80e625ec6540c24",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Avokado",
+  "description": "",
+  "img": "/img/nigiri_avokado.jpg",
+  "alt": "Avokado",
+  "price": 20,
+  "price_id": "price_1KXpBtKj0V8wtllqH9WYBeKE"
+},{
+  "_id": "62065d38a80e625ec6540c25",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Laks",
+  "description": "",
+  "img": "/img/nigiri_laks.jpg",
+  "alt": "Laks",
+  "price": 18,
+  "price_id": "price_1KXpCHKj0V8wtllq4gYazTVv"
+},{
+  "_id": "62065d38a80e625ec6540c26",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Crabsticks",
+  "description": "",
+  "img": "/img/nigiri_crabsticks.jpg",
+  "alt": "Crabsticks",
+  "price": 20,
+  "price_id": "price_1KXpCmKj0V8wtllq3Bt1LlYk"
+},{
+  "_id": "62065d38a80e625ec6540c27",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Kveite",
+  "description": "",
+  "img": "/img/nigiri_kveite.jpg",
+  "alt": "Kveite",
+  "price": 22,
+  "price_id": "price_1KXpDLKj0V8wtllqXmkdWFtP"
+},{
+  "_id": "62065d38a80e625ec6540c28",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Kamskjell",
+  "description": "",
+  "img": "/img/nigiri_kamskjell.jpg",
+  "alt": "Kamskjell",
+  "price": 22,
+  "price_id": "price_1KXpDkKj0V8wtllqHFCuXwH9"
+},{
+  "_id": "62065d38a80e625ec6540c29",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Tunfisk",
+  "description": "",
+  "img": "/img/nigiri_tunfisk.jpg",
+  "alt": "Tunfisk",
+  "price": 22,
+  "price_id": "price_1KXpE6Kj0V8wtllqlgLxpdTH"
+},{
+  "_id": "62065d38a80e625ec6540c2a",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Kokt Scampi",
+  "description": "",
+  "img": "/img/nigiri_koktScampi.jpg",
+  "alt": "Kokt Scampi",
+  "price": 24,
+  "price_id": "price_1KXpESKj0V8wtllqJhVGDTv9"
+},{
+  "_id": "62065d38a80e625ec6540c2b",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Lakserogn",
+  "description": "",
+  "img": "/img/nigiri_lakserogn.jpg",
+  "alt": "Lakserogn",
+  "price": 28,
+  "price_id": "price_1KXpEmKj0V8wtllqbjRNcMkp"
+},{
+  "_id": "62065d38a80e625ec6540c2c",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Flyvefiskrong",
+  "description": "",
+  "img": "/img/nigiri_flyvefiskrong.jpg",
+  "alt": "Flyvefiskrong",
+  "price": 28,
+  "price_id": "price_1KXpFAKj0V8wtllqCM8A3ywE"
+},{
+  "_id": "62065d38a80e625ec6540c2d",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Laks i Chillimajones",
+  "description": "",
+  "img": "/img/nigiri_laksChillimajones.jpg",
+  "alt": "Laks i Chillimajones",
+  "price": 28,
+  "price_id": "price_1KXpFZKj0V8wtllqvH72yA23"
+},{
+  "_id": "62065d38a80e625ec6540c2e",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Tunfisk i Chillimajones",
+  "description": "",
+  "img": "/img/nigiri_tunfiskChillimajones.jpg",
+  "alt": "Tunfisk i Chillimajones",
+  "price": 30,
+  "price_id": "price_1KXpG2Kj0V8wtllqvRJieA9M"
+},{
+  "_id": "62065d38a80e625ec6540c2f",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Kamskjell i Chillimajones",
+  "description": "",
+  "img": "/img/nigiri_kamskjellChillimajones.jpg",
+  "alt": "Kamskjell i Chillimajones",
+  "price": 30,
+  "price_id": "price_1KXpGRKj0V8wtllq8ww7eI0I"
+},{
+  "_id": "62065d38a80e625ec6540c30",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Kongekrabbe i Chillimajones",
+  "description": "",
+  "img": "/img/nigiri_kongekrabbeChillimajones.jpg",
+  "alt": "Kongekrabbe i Chillimajones",
+  "price": 60,
+  "price_id": "price_1KXpGsKj0V8wtllqXnEUi0bc"
+},{
+  "_id": "62065d38a80e625ec6540c31",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Laks - deluxe",
+  "description": "",
+  "img": "/img/nigiri_laksDeluxe.jpg",
+  "alt": "Laks - deluxe",
+  "price": 34,
+  "price_id": "price_1KXpHEKj0V8wtllq4QuzJIP1"
+},{
+  "_id": "62065d38a80e625ec6540c33",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Tunfisk - Deluxe",
+  "description": "Agurk, flyvefiskrogn og Chillimajones",
+  "img": "/img/nigiri_tunfiskDeluxe.jpg",
+  "alt": "Tunfisk - Deluxe",
+  "price": 36,
+  "price_id": "price_1KXpKnKj0V8wtllqKoHcCmU0"
+},{
+  "_id": "62065d38a80e625ec6540c34",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Kamskjell - Deluxe",
+  "description": "Agurk, flyvefiskrogn og Chillimajones",
+  "img": "/img/nigiri_kamskjellDeluxe.jpg",
+  "alt": "Kamskjell - Deluxe",
+  "price": 36,
+  "price_id": "price_1KXpLHKj0V8wtllqw3seg2hK"
+},{
+  "_id": "62065d38a80e625ec6540c35",
+  "slug": "nigiris",
+  "category_title": "Nigiri - pris per bit (minst 2 ordre)",
+  "title": "Andlever (toppes med ålsaus)",
+  "description": "",
+  "img": "/img/nigiri_andlever.jpg",
+  "alt": "Andlever (toppes med ålsaus)",
+  "price": 59,
+  "price_id": "price_1KXpLjKj0V8wtllqwUOo6lq6"
+},{
+  "_id": "62065d38a80e625ec6540c36",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Meny 1 - 4 Nigiri og 4 Maki (8 biter)",
+  "description": "3 Laks, 1 tunfisk, 4 Laksemaki nr. 19",
+  "img": "/img/meny_1.jpg",
+  "alt": "Nigiri og Maki",
+  "price": 99,
+  "price_id": "price_1KXpMTKj0V8wtllqxvn2eZWi"
+},{
+  "_id": "62065d38a80e625ec6540c37",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Meny 2 - 6 Nigiri og 4 Makisushi (10 biter)",
+  "description": "3 Laks, 1 Tunfisk, 1 Kamskjell, 1 Scampi og 4 Laksemaki nr. 19",
+  "img": "/img/meny_2.jpg",
+  "alt": "Nigiri og Makisushi",
+  "price": 129,
+  "price_id": "price_1KXpN2Kj0V8wtllq1pwqG2Fn"
+},{
+  "_id": "62065d38a80e625ec6540c38",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Meny 3 - 9 Nigiri og 6 Makisushi (15 biter)",
+  "description": "5 Laks, 1 Tunfisk, 1 Kveite, 1 Kamskjell, 1 Scampi og 6 Laksemaki",
+  "img": "/img/meny_3.jpg",
+  "alt": "Nigiri og Makisushi",
+  "price": 175,
+  "price_id": "price_1KXpNWKj0V8wtllq6sbpp1M1"
+},{
+  "_id": "62065d38a80e625ec6540c39",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Meny 4 - 12 Nigiri og 8 Makisushi (20 biter)",
+  "description": "7 Laks, 2 Tunfisk, 1 Kveite, 1 Kamskjell, 1 Scampi og 8 Laksemaki nr. 19",
+  "img": "/img/meny_4.jpg",
+  "alt": "Nigiri og Makisushi",
+  "price": 229,
+  "price_id": "price_1KXpOTKj0V8wtllqy8KR0d23"
+},{
+  "_id": "62065d38a80e625ec6540c3a",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Meny 5 Liten Sashimi - 12 biter",
+  "description": "7 Laks, 3 Tunfisk og 2 Kamskjell. Serveres m sjøtangsalat og ponzusaus",
+  "img": "/img/meny_5.jpg",
+  "alt": "Sashimi",
+  "price": 179,
+  "price_id": "price_1KXpOuKj0V8wtllqySnVacLK"
+},{
+  "_id": "62065d38a80e625ec6540c3b",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Meny 6 Stor Sashimi - 16 biter",
+  "description": "8 Laks, 4 Tunfisk, 2 Kamskjell og 2 Kveite Serveres m sjøtangsalat og ponzusaus.",
+  "img": "/img/meny_6.jpg",
+  "alt": "Sashimi",
+  "price": 229,
+  "price_id": "price_1KXpQAKj0V8wtllq7I0YdNC8"
+},{
+  "_id": "62065d38a80e625ec6540c3c",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Meny 7 - 4 Sashimi, 4 Nigiri og 6 Maki (14 biter)",
+  "description": "Sashimi: 3 Laks og 1 tunfisk Nigiri: 2 Laks, 1 tunnfisk og 1 kveite. Maki: 6 Tempura maki m/scampi nr. 33 Serves m sjøtangsalat og ponzusaus",
+  "img": "/img/meny_7.jpg",
+  "alt": "Sashimi, Nigiri og Maki",
+  "price": 189,
+  "price_id": "price_1KXpQgKj0V8wtllqQnaFqB03"
+},{
+  "_id": "62065d38a80e625ec6540c3d",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Meny 8 - 6 Sashimi, 6 Nigiri og 6 Maki (18 biter)",
+  "description": "Sashimi: 4 Laks, tunfisk og kamskjell. Nigiri: 3 Laks, kveite, tunfisk og kamskjell. Maki: 6 biter tempura maki m/scampi nr. 29 Serves m sjøtangsalat og ponzusaus",
+  "img": "/img/meny_8.jpg",
+  "alt": "Sashimi, Nigiri og Maki",
+  "price": 249,
+  "price_id": "price_1KXpRGKj0V8wtllqeoZjiRCQ"
+},{
+  "_id": "62065d38a80e625ec6540c3e",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Familiepakke nr.39 (60 biter)",
+  "description": "36 Nigiri: 20 Laks, 4 tunfisk, 4 kveite, 4 kamskjell, 4 scampi. 12 biter laks maki: laks, agurk og purreløk (nr.19) 12 biter scampi maki: stekt scampi m avokado (nr.29)",
+  "img": "/img/meny_39.jpg",
+  "alt": "Nigiri, Laks, tunfisk, kveite, kamskjell, scampi, laks maki, agurk og purreløk, scampi maki",
+  "price": 739,
+  "price_id": "price_1KXpRhKj0V8wtllqyNrAE5hS"
+},{
+  "_id": "62065d38a80e625ec6540c3f",
+  "slug": "menus",
+  "category_title": "Fast Meny",
+  "title": "Dagens Meny - 8 nigiri og 6 maki (14 biter)",
+  "description": "6 laks, 1 kamskjell, 1 scampi, og maki nr. 19 (laks, agurk og purreløk)",
+  "img": "/img/meny_dagens.jpg",
+  "alt": "Laks, kamskjell, scampi, laks maki",
+  "price": 159,
+  "price_id": "price_1KXpSJKj0V8wtllqsnDRtmsW"
+},{
+  "_id": "62065d38a80e625ec6540c40",
+  "slug": "futomakis",
+  "category_title": "Futo Maki - 10 biter",
+  "title": "9 - Futomaki med stekt scampi",
+  "description": "Frityrstekt scampi med laks, tunfisk, agurk, avokado og chilimajones toppes med rogn.",
+  "img": "/img/futoMaki_scampi.jpg",
+  "alt": "Futomaki med stekt scampi",
+  "price": 179,
+  "price_id": "price_1KXpTBKj0V8wtllqZrHqHdKX"
+},{
+  "_id": "62065d38a80e625ec6540c41",
+  "slug": "futomakis",
+  "category_title": "Futo Maki - 10 biter",
+  "title": "10 - Futomaki med kokt kongekrabbe",
+  "description": "kokt kongekrabbe med laks, tunfisk, agurk, avokado og chilimajones toppes med rogn.",
+  "img": "/img/futoMaki_kongekrabbe.jpg",
+  "alt": "Futomaki med kokt kongekrabbe",
+  "price": 269,
+  "price_id": "price_1KXpThKj0V8wtllqi77mvW4a"
+},{
+  "_id": "62065d38a80e625ec6540c42",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.12) Laks i chillimajones - 6 Biter",
+  "description": "Laks med avokado og chilimajones",
+  "img": "/img/maki_laksChilimajones.jpg",
+  "alt": "Laks i chillimajones",
+  "price": 89,
+  "price_id": "price_1KXpUDKj0V8wtllqhvfnrVWX"
+},{
+  "_id": "62065d38a80e625ec6540c43",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.13) Philadelphia - 6 Biter",
+  "description": "Laks med kremost og avokado",
+  "img": "/img/maki_laksKremostAvokado.jpg",
+  "alt": "Laks med kremost og avokado",
+  "price": 89,
+  "price_id": "price_1KXpUkKj0V8wtllq9y0ixDVa"
+},{
+  "_id": "62065d38a80e625ec6540c44",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.14) Kongekrabbe - 6 Biter",
+  "description": "Kokt Kongekrabbe med kremost og avokado",
+  "img": "/img/maki_kongekrabbeKremostAvokado.jpg",
+  "alt": "Kongekrabbe med kremost og avokado",
+  "price": 179,
+  "price_id": "price_1KXpVkKj0V8wtllqlkVBVWHF"
+},{
+  "_id": "62065d38a80e625ec6540c45",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.15) Ål - 6 Biter",
+  "description": "Grillet ål med agurk og avokado, toppes med ålsaus.",
+  "img": "/img/maki_ål.jpg",
+  "alt": "Grillet ål med agurk og avokado, toppes med ålsaus",
+  "price": 95,
+  "price_id": "price_1KXpWEKj0V8wtllqtkJSGtiO"
+},{
+  "_id": "62065d38a80e625ec6540c46",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.16) Kamskjell - 6 Biter",
+  "description": "Kamskjell med kimchi",
+  "img": "/img/maki_kamskjell.jpg",
+  "alt": "Kamskjell med kimchi",
+  "price": 85,
+  "price_id": "price_1KXpWmKj0V8wtllqxfr5vS6g"
+},{
+  "_id": "62065d38a80e625ec6540c47",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.17) Laks - 6 Biter",
+  "description": "Laks og avokado",
+  "img": "/img/maki_laksAvokado.jpg",
+  "alt": "Laks og avokado",
+  "price": 79,
+  "price_id": "price_1KXpXHKj0V8wtllq101ULoVc"
+},{
+  "_id": "62065d38a80e625ec6540c48",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.18) California - 6 Biter",
+  "description": "Crabstick med avokado",
+  "img": "/img/maki_crabstickAvokado.jpg",
+  "alt": "Crabstick med avokado",
+  "price": 79,
+  "price_id": "price_1KXpXxKj0V8wtllqaofpxTpz"
+},{
+  "_id": "62065d38a80e625ec6540c49",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.19) Laks - 6 Biter",
+  "description": "Laks med agurk og purreløk",
+  "img": "/img/maki_laksAgurkPurre.jpg",
+  "alt": "Laks med agurk og purreløk",
+  "price": 75,
+  "price_id": "price_1KXpYRKj0V8wtllqSpwsAtCb"
+},{
+  "_id": "62065d38a80e625ec6540c4a",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.20) Lakserogn - 6 Biter",
+  "description": "Laks med kokt scampi, avokado og tobikko, toppes med lakserogn.",
+  "img": "/img/maki_lakserogn.jpg",
+  "alt": "Laks med kokt scampi, avokado og tobikko, toppes med lakserogn",
+  "price": 95,
+  "price_id": "price_1KXpZ3Kj0V8wtllq2DLRA8nR"
+},{
+  "_id": "62065d38a80e625ec6540c4b",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.21) Spicy Tuna - 6 Biter",
+  "description": "Tunfisk med kimchi",
+  "img": "/img/maki_spicyTuna.jpg",
+  "alt": "Tunfisk med kimchi",
+  "price": 85,
+  "price_id": "price_1KXpZXKj0V8wtllq2gEoOkoB"
+},{
+  "_id": "62065d38a80e625ec6540c4c",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.22) Scampi - 6 Biter",
+  "description": "Kokt scampi med avokado",
+  "img": "/img/maki_koktScampiAvokado.jpg",
+  "alt": "Kokt scampi med avokado",
+  "price": 85,
+  "price_id": "price_1KXpZzKj0V8wtllqypk1DjXs"
+},{
+  "_id": "62065d38a80e625ec6540c4d",
+  "slug": "makis",
+  "category_title": "Maki - 6 Biter",
+  "title": "(Nr.23) Regnbuen - 6 Biter",
+  "description": "Crabstick og avokado innvendig, toppes med laks, kveite, tunfisk og avokado.",
+  "img": "/img/maki_koktScampiAvokado.jpg",
+  "alt": "Crabstick og avokado innvendig, toppes med laks, kveite, tunfisk og avokado",
+  "price": 119,
+  "price_id": "price_1KXpaUKj0V8wtllqMUHhoq41"
+},{
+  "_id": "62065d38a80e625ec6540c4e",
+  "slug": "friedMakis",
+  "category_title": "Frityrstekt Maki - 6 Biter",
+  "title": "(Nr.11) Frityrstekt hummer - 6 biter",
+  "description": "Stekt Hummer med agurk, avokado og chilimajones, toppes med rogn.",
+  "img": "/img/frityrMaki_scampi.jpg",
+  "alt": "Frityrstekt Maki - 6 Biter",
+  "price": 189,
+  "price_id": "price_1KXpayKj0V8wtllq0oETRdJI"
+},{
+  "_id": "62065d38a80e625ec6540c4f",
+  "slug": "friedMakis",
+  "category_title": "Frityrstekt Maki - 6 Biter",
+  "title": "(Nr.26) Kongekrabbe",
+  "description": "Stekt kongekrabbe med avokado",
+  "img": "/img/frityrMaki_kongekrabbe.jpg",
+  "alt": "Frityrstekt Maki - 6 Biter",
+  "price": 179,
+  "price_id": "price_1KXpbUKj0V8wtllqFmZU5iaP"
+},{
+  "_id": "62065d38a80e625ec6540c50",
+  "slug": "friedMakis",
+  "category_title": "Frityrstekt Maki - 6 Biter",
+  "title": "(Nr.27) Kylling",
+  "description": "Stekt kylling med purreløk og agurk",
+  "img": "/img/frityrMaki_kylling.jpg",
+  "alt": "Kylling",
+  "price": 89,
+  "price_id": "price_1KXpbxKj0V8wtllq4LeLX8mW"
+},{
+  "_id": "62065d38a80e625ec6540c51",
+  "slug": "friedMakis",
+  "category_title": "Frityrstekt Maki - 6 Biter",
+  "title": "(Nr.28) Entrecôte",
+  "description": "Stekt Entrecôte med kimchi",
+  "img": "/img/frityrMaki_entrote.jpg",
+  "alt": "Stekt Entrecôte med kimchi",
+  "price": 89,
+  "price_id": "price_1KXpcYKj0V8wtllqmV4cUzkc"
+},{
+  "_id": "62065d38a80e625ec6540c52",
+  "slug": "friedMakis",
+  "category_title": "Frityrstekt Maki - 6 Biter",
+  "title": "(Nr.29) Scampi",
+  "description": "Stekt scampi med avokado",
+  "img": "/img/frityrMaki_scampi.jpg",
+  "alt": "Scampi",
+  "price": 89,
+  "price_id": "price_1KXpd5Kj0V8wtllqsL9GK3cw"
+},{
+  "_id": "62065d38a80e625ec6540c53",
+  "slug": "friedMakis",
+  "category_title": "Frityrstekt Maki - 6 Biter",
+  "title": "(Nr.30) Soft- Shell Krabbe",
+  "description": "Stekt scampi med avokado",
+  "img": "/img/frityrMaki_softShell.jpg",
+  "alt": "Soft- Shell Krabbe",
+  "price": 119,
+  "price_id": "price_1KXpdXKj0V8wtllqWgrqPJuy"
+},{
+  "_id": "62065d38a80e625ec6540c54",
+  "slug": "specialFriedMakis",
+  "category_title": "Husets Spesielle frityrstekt maki - 6 Biter",
+  "title": "(Nr.31) Laks",
+  "description": "Stekt laks med purreløk og chilimajones (hele rullen er frityrstekt)",
+  "img": "/img/husetsSpesiellefrityrstektMaki_laks.jpg",
+  "alt": "Stekt laks med purreløk og chilimajones",
+  "price": 89,
+  "price_id": "price_1KXpe2Kj0V8wtllq3BKj7KUW"
+},{
+  "_id": "62065d38a80e625ec6540c55",
+  "slug": "specialFriedMakis",
+  "category_title": "Husets Spesielle frityrstekt maki - 6 Biter",
+  "title": "(Nr.32) Tuna",
+  "description": "Stekt tunfisk med kimchi (hele rullern er frityrstekt). Toppes med teriyaki saus.",
+  "img": "/img/husetsSpesiellefrityrstektMaki_tuna.jpg",
+  "alt": "Stekt tunfisk med kimchi og teryaki saus",
+  "price": 89,
+  "price_id": "price_1KXpefKj0V8wtllq4bl2csGs"
+},{
+  "_id": "62065d38a80e625ec6540c56",
+  "slug": "specialFriedMakis",
+  "category_title": "Husets Spesielle frityrstekt maki - 6 Biter",
+  "title": "(Nr.33) Scampi",
+  "description": "Stekt scampi med avokado, agurk, asparges, salat og gulrot",
+  "img": "/img/husetsSpesiellefrityrstektMaki_scampi.jpg",
+  "alt": "Stekt scampi med avokado, agurk, asparges, salat og gulrot",
+  "price": 89,
+  "price_id": "price_1KXpfFKj0V8wtllqQxQFEVaO"
+},{
+  "_id": "62065d38a80e625ec6540c57",
+  "slug": "specialFriedMakis",
+  "category_title": "Husets Spesielle frityrstekt maki - 6 Biter",
+  "title": "(Nr.34) Kylling",
+  "description": "Stekt kylling med avokado, agurk, asparges, salat og gulrot",
+  "img": "/img/husetsSpesiellefrityrstektMaki_kylling.jpg",
+  "alt": "Stekt kylling med avokado, agurk, asparges, salat og gulrot",
+  "price": 89,
+  "price_id": "price_1KXpgpKj0V8wtllq07vZ3d4C"
+},{
+  "_id": "62065d38a80e625ec6540c59",
+  "slug": "vegeterianMaki",
+  "category_title": "Vegetarisk Maki - 6 Biter",
+  "title": "(Nr.35) Tofu",
+  "description": "Frityrstekt Tofu med agurk, avokado, gulrot og salat",
+  "img": "/img/vegitariskMaki_tofu.jpg",
+  "alt": "Frityrstekt Tofu med agurk, avokado, gulrot og salat",
+  "price": 89,
+  "extraInfo": "VG",
+  "price_id": "price_1KXphMKj0V8wtllqwhGlq2KK"
+},{
+  "_id": "62065d38a80e625ec6540c5a",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.41) Tom Kha Gai",
+  "description": "Kylling suppe med kokosmelk, sjampinjong, gulrot, bamus og sitrongress",
+  "img": "/img/varmmat_tomKhaGai.jpg",
+  "alt": "Tom Kha Gai",
+  "price": 89,
+  "price_id": "price_1KXv5HKj0V8wtllquMDchLnc"
+},{
+  "_id": "62065d38a80e625ec6540c5b",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(nr. 42) Nudler med grillet Svin",
+  "description": "Tradisjonell vietnamesisk nudler med svin, sitrongress og salat. Serveres med limechili saus og peanøtter.",
+  "img": "/img/varmmat_nudlerGrilletSvin.jpg",
+  "alt": "Nudler med grillet Svin",
+  "price": 189,
+  "price_id": "price_1KXv61Kj0V8wtllqvx1pWfQC"
+},{
+  "_id": "62065d38a80e625ec6540c5c",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.43) Stekt ris med Kylling",
+  "description": "Stekt ris serves med kylling, egg, løk, erter, gulrot og mais.",
+  "img": "/img/varmmat_stektRisKylling.jpg",
+  "alt": "Stekt ris med Kylling",
+  "price": 159,
+  "price_id": "price_1KXv7jKj0V8wtllqvO8xVlxr"
+},{
+  "_id": "62065d38a80e625ec6540c5d",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.44) Stekt ris med biff",
+  "description": "Stekt ris serves med biff, egg, løk, erter, gulrot og mais.",
+  "img": "/img/varmmat_stektRisBiff.jpg",
+  "alt": "Stekt ris med biff",
+  "price": 179,
+  "price_id": "price_1KXv8NKj0V8wtllqmMw9BkO0"
+},{
+  "_id": "62065d38a80e625ec6540c5e",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.45) Stekte nudler",
+  "description": "Stekte nudler serveres med ferske grønnsaker. Velg mellom scampi, kylling eller biff. + 20 kr for biff eller scampi",
+  "img": "/img/varmmat_stekteNudler.jpg",
+  "alt": "Stekte nudler",
+  "price": 169,
+  "price_id": "price_1KXv9FKj0V8wtllqcXAMHzDb"
+},{
+  "_id": "62065d38a80e625ec6540c5f",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.46) Pad Thai med scampi og kylling",
+  "description": "Tykke risnudler serves med scampi, kylling, egg, bønnespire og gulrot. Toppes med peanøtter, lime og chili.",
+  "img": "/img/varmmat_stekteNudler.jpg",
+  "alt": "Pad Thai med scampi og kylling",
+  "price": 179,
+  "price_id": "price_1KXv9yKj0V8wtllqD4y4RVP7"
+},{
+  "_id": "62065d38a80e625ec6540c60",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.47) Biff Gongbao",
+  "description": "Wokket biff med chili, rødvin, ferske grønnsaker og cashewnøtter. Ris medfølger.",
+  "img": "/img/varmmat_biffGongbao.jpg",
+  "alt": "Biff Gongbao",
+  "price": 199,
+  "price_id": "price_1KXvATKj0V8wtllql1XAxqCT"
+},{
+  "_id": "62065d38a80e625ec6540c61",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.50) Biff med Rød Karri",
+  "description": "Biff med rød karri, kokosmelk og ferske grønnsaker. Ris medfølger.",
+  "img": "/img/varmmat_biffGongbao.jpg",
+  "alt": "Biff med Rød Karri",
+  "price": 199,
+  "price_id": "price_1KXvBEKj0V8wtllqFcI8VNNF"
+},{
+  "_id": "62065d38a80e625ec6540c62",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr. 52) Kylling Gongbao",
+  "description": "Wokket kylling med chili, rødvin, ferske grønnsaker og cashewnøtter. Ris medfølger.",
+  "img": "/img/varmmat_kyllingGongbao.jpg",
+  "alt": "Kylling Gongbao",
+  "price": 179,
+  "price_id": "price_1KXvCTKj0V8wtllqEsy11r7V"
+},{
+  "_id": "62065d38a80e625ec6540c63",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.54) Kylling rød karri",
+  "description": "Kylling med rød karri, kokosmelk og ferske grønnsaker. Ris medfølger.",
+  "img": "/img/varmmat_kyllingRødKarri.jpg",
+  "alt": "Kylling rød karri",
+  "price": 179,
+  "price_id": "price_1KXvCwKj0V8wtllqWYUAdT51"
+},{
+  "_id": "62065d38a80e625ec6540c64",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr. 56) Kylling Satay",
+  "description": "Kylling serveres med peanøttsaus, kokosmelk og ferske grønnsaker. Toppes med peanøtter. Ris medfølger.",
+  "img": "/img/varmmat_kyllingRødKarri.jpg",
+  "alt": "Kylling Satay",
+  "price": 199,
+  "price_id": "price_1KXvDLKj0V8wtllqvhnofzCV"
+},{
+  "_id": "62065d38a80e625ec6540c65",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.60) Innbakt kylling",
+  "description": "Marinert kylling dyppet i tempuramel og frityrstekes. Serveres med sursøtsaus og ferske grønnsaker. Ris medfølger.",
+  "img": "/img/varmmat_innbaktKylling.jpg",
+  "alt": "Innbakt kylling",
+  "price": 199,
+  "price_id": "price_1KXvDmKj0V8wtllqfeQoER6k"
+},{
+  "_id": "62065d38a80e625ec6540c66",
+  "slug": "varmMeals",
+  "category_title": "Varm Mat",
+  "title": "(Nr.62) Innbakt and",
+  "description": "Andebryst dyppet i tempuramel og frityrstekes. Serveres med hoisinsaus og ferske grønnsaker. Ris medfølger.",
+  "img": "/img/varmmat_innbaktAnd.jpg",
+  "alt": "Innbakt and",
+  "price": 249,
+  "price_id": "price_1KXvEOKj0V8wtllqgQ56EhAy"
+}]}

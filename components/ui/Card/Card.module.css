@@ -1,0 +1,5 @@
+.card {
+    @apply p-4 gap-4 w-64 text-center;
+    max-height: 100% !important;
+    
+}

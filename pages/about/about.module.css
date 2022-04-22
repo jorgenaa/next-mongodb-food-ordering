@@ -1,0 +1,42 @@
+.about {
+    @apply mx-auto px-4 mt-8 w-full;
+    max-width: 768px; 
+}
+
+.about__section {
+    @apply mx-auto flex justify-between gap-4  ; 
+}
+
+.about__title {
+    @apply text-center;
+}
+
+.about__text {
+    /* @apply space-x-1; */
+    
+}
+
+.about__img {
+    background-image: url("../../assets/images/sashimi_.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 350px;
+    width: 100%;
+    min-height: 350px;
+    height: 100%;
+} 
+
+@media screen and (max-width: 768px) {
+    .about__img {
+        min-width: 250px;
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about__img {
+        min-width: 150px;
+        min-height: 150px;
+    }
+}

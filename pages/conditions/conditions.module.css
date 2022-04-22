@@ -1,0 +1,27 @@
+.conditions {
+    @apply grid-cols-1 grid-rows-1 max-w-screen-lg items-center mx-auto my-8  px-8;
+}
+
+.conditions__section {
+    @apply mx-auto;
+    
+    max-width: 1366px;
+}
+
+.conditions__heading {
+    @apply font-bold text-3xl mb-8 text-center;
+}
+
+.conditions__heading-two {
+    @apply font-bold text-xl mb-4;
+}
+
+.conditions__text {
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.conditions__divider {
+    @apply my-8;
+}
+

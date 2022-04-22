@@ -1,0 +1,59 @@
+.nav {
+    @apply flex;
+}
+
+.navMobile {
+    @apply hidden;
+}
+
+.nav__hamburger {
+    @apply invisible; 
+}
+
+.nav__link {
+    @apply mx-5 self-center cursor-pointer border-black border-b-2 text-white text-xl;
+}
+
+.nav__link--hover:hover {
+    @apply mx-5 border-b-2 border-green delay-75 duration-100 text-lime-500 transition-all;
+}
+
+.nav__link--active {
+    @apply mx-5 border-b-2 border-green delay-75 duration-100 text-lime-500;
+}
+
+.nav__divider {
+   @apply my-4 border-white;
+}
+
+@media screen and (max-width: 768px) {    
+    .nav {
+        @apply hidden relative ;
+    }
+
+    .navMobile {
+        @apply bg-black p-4 w-52 h-screen block fixed top-0 z-10 transition-all ease-in-out duration-500;
+        
+    }
+
+    .navMobile--close {
+        @apply -left-52 ;
+    }
+      
+    .navMobile--open {
+        @apply left-0 ;
+    }
+
+    .nav__mobileView {
+        @apply w-full flex flex-col pb-4 ;
+    }
+
+    .nav__close {
+        @apply float-right cursor-pointer;
+    }
+
+    .nav__hamburger {
+        @apply flex items-center cursor-pointer visible;
+    }
+    
+}

@@ -1,0 +1,113 @@
+.home {
+ 
+}
+
+.home__grid-one {
+    @apply grid-cols-1 grid-rows-1 max-w-screen-lg items-center p-4;
+    
+}
+
+.home__grid-two {
+    @apply grid-cols-2 gap-4 grid-rows-1 max-w-sm md:max-w-sm lg:max-w-screen-md items-center;
+}
+
+.home__grid-four {
+    @apply grid-cols-4 gap-4 grid-rows-1 max-w-screen-lg;
+} 
+
+.home__heading-one {
+    @apply font-bold text-5xl pb-6;
+}
+
+.home__divider {
+    @apply my-8;
+}
+
+.home__heading-sub {
+    @apply font-bold text-2xl sm:text-3xl lg:text-4xl mb-8 text-center;
+}
+
+.home__hero-text-container {
+    @apply py-6;
+}
+
+.home__about {
+    /* background-image: url("../assets/images/bgGreenPattern.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; */
+    @apply bg-white my-8 px-4 w-full block;
+    /* background-image:  url("../assets/bgTextureBright2.svg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 100%; */
+}
+
+.home__recommendations {
+    @apply bg-white my-8 p-4;
+}
+
+.home__text {
+    @apply space-x-1 sm:text-base lg:text-lg;
+}
+
+.home__img-container {
+    @apply w-full flex justify-center items-center;
+}
+
+.home__img {
+    @apply rounded-full w-40 h-40 lg:w-60 lg:h-60 xl:w-80 xl:h-80;
+    background-image: url("../../assets/images/sashimi_.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home__contact {
+    @apply max-w-6xl mx-auto p-4;
+    
+}
+
+.home__contact-container {
+    @apply flex rounded-md;
+    box-shadow: 0px 3px 6px grey;
+}
+
+.home__map {
+    @apply rounded-r-md w-full;
+}
+
+@media screen and (max-width: 945px) {
+    .home__grid-four {
+        @apply grid-cols-2 grid-rows-1 max-w-screen-sm;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home__grid-two {
+       @apply grid-cols-none grid-rows-none flex flex-col-reverse;
+    }
+
+    .home__text {
+        @apply text-center;
+    }
+    
+    .home__contact-container {
+        @apply flex-col-reverse max-w-screen-lg;
+    }
+
+    .home__map {
+        @apply h-80 rounded-r-none rounded-t-md;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home__grid-four {
+        @apply grid-cols-1 grid-rows-1;
+    }
+}
+
+
+

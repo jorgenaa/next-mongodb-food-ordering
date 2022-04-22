@@ -1,0 +1,9 @@
+.stickyContainer {
+    @apply bg-primary min-h-screen flex flex-col;
+}
+
+.wrapper {
+    @apply w-full flex-1 mt-0 mx-auto mb-8 relative;
+    //max-width: 1366px;
+    min-height: 100vh;
+}

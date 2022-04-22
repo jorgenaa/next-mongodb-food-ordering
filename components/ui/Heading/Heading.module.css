@@ -1,0 +1,4 @@
+.heading {
+    @apply w-full font-bold text-3xl pb-6 mt-4 mx-auto text-center;
+   
+}
