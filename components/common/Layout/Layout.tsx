@@ -40,9 +40,9 @@ const Layout: FC <Props> = ({children, title, keywords, description}) => { //
 }
 
 Layout.defaultProps = {
-    title: 'Sushi Adamstuen | Vi holder åpent for take - away',
-    description: 'Vi lager fersk Sushi til alle anledninger og leverer god kvalitet og råvarer.',
-    keywords: 'sushi, maki, tempura, sashimi, asiatisk mat'
+    title: 'Sushi House | We are open for take away',
+    description: 'We make fresh Sushi for all occasions and deliver good quality and ingredients.',
+    keywords: 'sushi, maki, tempura, sashimi, asian food'
 }
 
 export default Layout;

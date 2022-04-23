@@ -337,6 +337,28 @@ button,
   cursor: pointer;
 }
 
+
+/*
+Set default table
+*/
+
+table {
+  width: 100%;
+}
+
+th {
+	padding: 0.5rem 1rem;
+}
+
+td {
+	text-align: left;
+	padding: 0.5rem 1rem;
+}
+
+tr {
+	vertical-align: text-top;
+}
+
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
