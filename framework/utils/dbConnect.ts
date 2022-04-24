@@ -1,10 +1,10 @@
 import mongoose, { Connection } from "mongoose"
 
 
-const MONGODB_URI = process.env.MONGODB_URI
-const MONGODB_DB: string | any = process.env.MONGODB_NAME;
+const URL = process.env.MONGODB_URI
+//const MONGODB_DB: string | any = process.env.MONGODB_NAME;
 
-if (!MONGODB_URI) {
+if (!URL) {
   throw new Error(
     'Please define the MONGODB_URI environment variable inside .env.local'
   )
@@ -32,8 +32,7 @@ const connectToDatabase = async () => {
   if (!cached.promise) {
     const opts = {}
 
-  //const conn = await mongoose
-  cached.promise = mongoose.connect(MONGODB_URI as string).then((mongoose) => {
+  cached.promise = mongoose.connect(URL as string).then((mongoose) => {
     return mongoose
   })
 
@@ -42,6 +41,5 @@ const connectToDatabase = async () => {
   }  
 }
 
-
-
 export default connectToDatabase
+

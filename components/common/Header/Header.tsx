@@ -8,6 +8,7 @@ import { openSidebar } from "redux/store/cartSidebarSlice";
 import { closeNavbar, toggleNavbar } from 'redux/store/navbarSlice';
 import useAutoClose from '@components/Hooks/useAutoClose';
 import { Navbar } from '..';
+import {Logo} from '../../ui'
 import styles from './Header.module.css'
 
 const Header: FC = () => {
@@ -36,14 +37,7 @@ const Header: FC = () => {
       </button>
       <Link href="/">
           <a className={styles.header__link}>
-            Logo
-            {/* <Image
-              src={"/logo.png"}
-              alt="logo"
-              width="40px"
-              height="40px"
-              className={styles.header__img}
-            /> */}
+            <Logo />
           </a>
       </Link>
       <Navbar />

@@ -17,14 +17,17 @@ const ProductCard: NextPage<Props> = ({product, path}) => {
     return (
             <ActiveLink activeClassName={""} href={`${path}product/[id]`} as={`${path}product/${product._id}`}>
                 <a className={`${styles['card']} ${styles['card--hover']}`}> 
-                    <Image 
-                        className={`${styles['card__img']} ${styles['card__img--hover']}`} 
-                        src={placeholderImage} 
-                        alt={product.alt} 
-                        height={280} 
-                        width={280} 
-                        layout="responsive" 
-                    />
+                    <div className={styles['card__img-wrapper']}>
+                        <Image 
+                            className={`${styles['card__img']} ${styles['card__img--hover']}`} 
+                            src={placeholderImage} 
+                            alt={product.alt} 
+                            width={140}
+                            height={140}
+                            layout="responsive"
+                        />
+                    </div> 
+                   
                     <div className={styles.card__body}>
                         <h3 className={styles.card__title}>{product.title}</h3>
                         <p className={styles.card__icon}>{product.icon}</p>

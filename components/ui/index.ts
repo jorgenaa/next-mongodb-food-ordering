@@ -8,5 +8,6 @@ export { default as Divider } from "./Divider"
 export { default as Button } from "./Button";
 export { default as ActiveLink } from "./ActiveLink";
 export { default as ContactInfo } from "./ContactInfo";
+export { default as Logo } from "./Logo"
 
 //export { default as LoadingDots } from "./LoadingDots"

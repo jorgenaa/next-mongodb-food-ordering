@@ -1,6 +1,7 @@
 .card {
     @apply border border-secondary rounded-md;
     flex-basis: 280px;
+    
 }
 
 .card--hover:hover {
@@ -8,13 +9,19 @@
     
 }
 
+.cart__img-wrapper {
+    width:280px;
+    height: 280px;
+   
+}
+
+
 .card__img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    //border-radius: 5px;
-    object-fit: contain;
-    width: 100% !important;
+   
 }
+
 
 .card__img--hover:hover {
     transform: scale(1.15);
@@ -52,8 +59,11 @@
  }
 
  @media screen and (max-width: 625px) {
-    .card {
-        @apply w-full;
-        flex-basis: none;
-    } 
+   
+   
+}
+
+
+@media screen and (max-width: 500px) {
+  
 }

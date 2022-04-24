@@ -1,5 +1,5 @@
 import type { InferGetStaticPropsType, GetStaticProps } from 'next';
-import { findeOneId, googleMapUrl, url } from '@framework/utilities';
+import { findeOneId, googleMapUrl } from '@framework/utilities';
 import dbConnect from '@framework/dbConnect';
 import productModel from "../framework/models/Product"
 
@@ -64,11 +64,10 @@ const Home = ({ recomendedProducts }: InferGetStaticPropsType<typeof getStaticPr
 Home.Layout = Layout
 
 export const getStaticProps: GetStaticProps = async () => {
-  //const products = await fetchUrl(`${url}/api/products`)
+  
   dbConnect()
   const res = await productModel.find()
-  //const res = await fetch(`${url}/api/products`)
-  //const products = await res.json();
+ 
   const products = await JSON.parse(JSON.stringify(res))
   const menuSeven = findeOneId(products, '62065d38a80e625ec6540c3c')
   const friedMaki = findeOneId(products, '62065d38a80e625ec6540c4e')
@@ -77,7 +76,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
         props: {
-            recomendedProducts: [menuSeven, friedMaki, noodlesWithGrilledPork, padThai]
+            recomendedProducts: [menuSeven, friedMaki, noodlesWithGrilledPork, padThai] 
         },
         revalidate: 1
     };
