@@ -59,11 +59,14 @@
  }
 
  @media screen and (max-width: 625px) {
-   
+  
    
 }
 
 
 @media screen and (max-width: 500px) {
-  
+    .card {
+        @apply w-full;
+        flex-basis: none;
+    }
 }

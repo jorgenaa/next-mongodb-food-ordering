@@ -16,18 +16,16 @@
 }
 
 @media screen and (max-width: 768px) {
-   /* .productlist {
-      @apply flex-col;
+   .productlist {
+      @apply  w-full;
        max-width: 768px;
-       flex-flow: none;
-   } */
+       //flex-flow: none;
+   }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 500px) {
    .productlist {
-      @apply flex-col w-full;
-      max-width: 768px;
-
-      flex-flow: none;
+      @apply flex-col ;
+     
    } 
 }
