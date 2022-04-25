@@ -17,9 +17,9 @@
 
 @media screen and (max-width: 768px) {
    .productlist {
-      @apply  w-full;
+      @apply w-full;
        max-width: 768px;
-       //flex-flow: none;
+       flex-flow: none;
    }
 }
 
