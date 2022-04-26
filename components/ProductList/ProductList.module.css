@@ -1,31 +1,25 @@
 
 .productlist {
-   @apply flex gap-4 ml-4;
-   flex-flow: row wrap;
-   
+   @apply grid grid-flow-row grid-cols-3 gap-4 ml-4;
 }
 
 
 @media screen and (max-width: 945px) {
    .productlist {
-      @apply justify-center items-center mx-auto;
-      max-width: 768px;
-      width: 100%;
+      @apply mx-auto grid-cols-2;
+      max-width: 576px;
+      
    }
-
 }
 
 @media screen and (max-width: 768px) {
    .productlist {
-      @apply w-full;
-       max-width: 768px;
-       flex-flow: none;
+      @apply grid-cols-2;
    }
 }
 
 @media screen and (max-width: 500px) {
    .productlist {
-      @apply flex-col ;
-     
+      @apply grid-cols-1;
    } 
 }

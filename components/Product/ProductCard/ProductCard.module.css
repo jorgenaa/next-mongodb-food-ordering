@@ -1,27 +1,20 @@
 .card {
-    @apply border border-secondary rounded-md;
-    flex-basis: 280px;
-    
+    @apply border border-secondary rounded-md ;
 }
 
 .card--hover:hover {
     @apply border-4 border-green delay-100 duration-100;
-    
 }
 
 .cart__img-wrapper {
     width:280px;
     height: 280px;
-   
 }
-
 
 .card__img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-   
 }
-
 
 .card__img--hover:hover {
     transform: scale(1.15);
@@ -51,22 +44,10 @@
     @apply font-semibold text-base self-center mb-2;
 }
 
-@media screen and (max-width: 768px) {
-    /* .card {
-        @apply w-full;
-        flex-basis: none;
-    } */
- }
-
- @media screen and (max-width: 625px) {
-  
-   
-}
-
 
 @media screen and (max-width: 500px) {
     .card {
         @apply w-full;
-        flex-basis: none;
+        
     }
 }
