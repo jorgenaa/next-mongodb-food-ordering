@@ -17,7 +17,7 @@ const useAutoClose = () => {
         });
         return domeNode
     })
-  return [useClickOutside]
+    return [useClickOutside]
 }
 
 export default useAutoClose
