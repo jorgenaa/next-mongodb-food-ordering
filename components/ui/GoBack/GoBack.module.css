@@ -1,0 +1,24 @@
+.goBack {
+    @apply flex justify-center mt-8;
+   }
+
+.goBack__icon {
+    @apply ml-1 mt-1 float-left;
+}
+
+.btn {
+    @apply w-28 ml-2 text-white border-none font-medium cursor-pointer transition ease-in-out duration-150;
+    height: 40px;
+}
+
+.btn--black {
+    @apply bg-secondary;
+}
+
+.btn--rounded {
+    @apply rounded-md;
+}
+
+.btn--hover:hover {
+    @apply opacity-80;
+}
