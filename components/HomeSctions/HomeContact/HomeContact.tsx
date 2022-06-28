@@ -7,7 +7,7 @@ const HomeContact: FC = () => {
   return (
     <section className={s.homeContact}>
       <Grid classType={s['homeContact__grid-one']}>
-        <h2 className={s['homeContact__heading-sub']}>Kontakt Oss</h2>
+        <h2 className={s['homeContact__heading-sub']}>Contact Us</h2>
       </Grid>
       <div className={s['homeContact__container']}>
         <ContactInfo />

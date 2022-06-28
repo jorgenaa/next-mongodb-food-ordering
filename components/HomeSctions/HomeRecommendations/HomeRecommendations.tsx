@@ -12,7 +12,7 @@ const HomeRecommendations: FC<props> = ({recomendedProducts, path}) => {
   return (
     <section className={s.homeRecommendations}>
       <Grid classType={s['homeRecommendations__grid-one']}>
-        <h2 className={s['homeRecommendations__heading-sub']}>Våres Anbefalinger</h2>
+        <h2 className={s['homeRecommendations__heading-sub']}>Our Recommendations</h2>
       </Grid>
       <Grid classType={s['homeRecommendations__grid-four']}>
         {recomendedProducts.map((prod: any) => (
