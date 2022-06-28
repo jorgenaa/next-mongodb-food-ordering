@@ -1,0 +1,32 @@
+.homeRecommendations {
+    @apply bg-white my-8 p-4 mx-auto max-w-6xl;
+}
+
+.homeRecommendations__heading-sub {
+    @apply font-bold text-2xl sm:text-3xl lg:text-4xl mb-8 text-center;
+}
+
+.homeRecommendations__grid-one {
+    @apply grid-cols-1 grid-rows-1 max-w-screen-lg items-center p-4;
+}
+
+.homeRecommendations__grid-four {
+    @apply grid-cols-4 grid-rows-1 max-w-screen-xl grid grid-flow-row gap-4 ml-4;
+}
+
+@media screen and (max-width: 768px) {
+    .homeRecommendations__grid-two {
+       @apply grid-cols-none grid-rows-none flex flex-col-reverse;
+    }
+
+    .homeRecommendations__grid-four {
+        @apply grid-cols-2;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homeRecommendations__grid-four {
+        @apply grid-cols-1 grid-rows-1;
+    }
+}
+

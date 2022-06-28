@@ -1,5 +1,4 @@
 
-import { FC } from "react";
 import { NextPage } from "next";
 import s from "./ProductList.module.css";
 import ProductCard from "../Product/ProductCard/ProductCard";

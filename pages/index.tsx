@@ -5,8 +5,8 @@ import productModel from "../framework/models/Product"
 
 import Divider from '../components/ui/Divider'
 import { Layout } from '../components/common'
-import ProductCard from '../components/Product/ProductCard/ProductCard'
-import { Button, ContactInfo, Grid, Hero, Text } from '../components/ui'
+import * as HomeSection from '../components/HomeSctions'
+import { Hero} from '../components/ui'
 import s from './home/home.module.css'
 
 type Path = string
@@ -16,47 +16,15 @@ const Home = ({ recomendedProducts }: InferGetStaticPropsType<typeof getStaticPr
 
   return (
     <div className={s.home}>
-      <Hero />
-      <section className={s.home__about}>
-        <Grid classType={s['home__grid-one']}>
-          <h2 className={s['home__heading-sub']}>About Us</h2>
-        </Grid>
-        <Grid classType={s['home__grid-two']}>
-          <Text classType={s.home__text}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Sed felis eget velit aliquet sagittis id consectetur purus ut.
-          </Text>
-          <div className={s['home__img-container']}>
-            <div className={s.home__img}></div>
-          </div>
-        </Grid>
-      </section>
+     <Hero />
+      <HomeSection.HomeAbout />
       <Divider classType={s.home__divider} />
-      <section className={s.home__recommendations}>
-        <Grid classType={s['home__grid-one']}>
-          <h2 className={s['home__heading-sub']}>Our Recommendations</h2>
-        </Grid>
-        <Grid classType={s['home__grid-four']}>
-          {recomendedProducts.map((prod: any) => (
-            <ProductCard key={prod._id} product={prod} path={path} />
-          ))}
-        
-        </Grid>
-      </section>
+      <HomeSection.HomeRecommendations
+        path={path}
+        recomendedProducts={recomendedProducts}
+      />
       <Divider classType={s.home__divider} />
-      <section className={s.home__contact}>
-        <Grid classType={s['home__grid-one']}>
-          <h2 className={s['home__heading-sub']}>Contact Us</h2>
-        </Grid>
-        <div className={s['home__contact-container']}>
-          <ContactInfo/>
-          {/* <Map /> */}
-          <div className={s.home__map}>
-            <iframe src={googleMapUrl} width="100%" height="100%" className={s.home__map} loading="lazy" />
-          </div>
-        </div>
-      </section>
+      <HomeSection.HomeConctact />
     </div>
   )
 }

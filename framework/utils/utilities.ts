@@ -1,5 +1,6 @@
 //import axios from 'axios'
 //import { loadStripe } from '@stripe/stripe-js';
+import { Produced } from 'immer/dist/internal';
 import { Dispatch, SetStateAction } from 'react';
 //import { STRIPE_PK } from './stripe-utils/stripe-constants';
 
@@ -71,9 +72,12 @@ type handleCheckoutFunc = (url: string, lineItems: object) => Promise<void>
 // }
 
 
-export const findeOneSlug = (props: any, searchParam: any) => props.find((prod: any) => prod.slug === searchParam); 
 
-export const findeOneId = (props: any, searchParam: any) => props.find((prod: any) => prod._id === searchParam); 
+type FindOneFn = (props: string[], searchParam: string) => string | undefined
+
+export const findeOneSlug: FindOneFn = (props, searchParam) => props.find((prod: any) => prod.slug === searchParam); 
+
+export const findeOneId: FindOneFn = (props, searchParam) => props.find((prod: any) => prod._id === searchParam); 
 
 export const getAllProductsFromOneCategory = (props: any, searchParam: any) => props.filter((prod: any) => prod.slug === searchParam);
 
@@ -114,3 +118,5 @@ export const googleMapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3
 
 let dev = process.env.NODE_ENV !== 'production';
 export const url = dev ? process.env.DEV_URL: process.env.PROD_URL
+
+
