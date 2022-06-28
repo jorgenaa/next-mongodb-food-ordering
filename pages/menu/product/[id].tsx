@@ -14,9 +14,8 @@ import dbConnect from '@framework/dbConnect';
 import productModel from "../../../framework/models/Product"
 import { openSidebar } from 'redux/store/cartSidebarSlice';
 import { Layout } from '@components/common';
-//import { Text } from '@components/ui';
+import { GoBack } from '@components/ui';
 import s from "./product.module.css"
-import axios from 'axios';
 
 // interface ProductProps {
 //   products: Product | any
@@ -85,16 +84,7 @@ const ProductPage = ({product}: InferGetStaticPropsType<typeof getStaticProps> )
               </div>
             </div>
           </div>
-          <div className={s.product__goBack}>
-            <button 
-              className={`${s.product__btn} ${s['product__btn--black']} ${s['product__btn--rounded']} ${s['product__btn--hover']}`} 
-              onClick={() => router.back()}>
-                <span className={s.product__icon}>
-                  <IoIcons.IoChevronBackSharp />
-                </span> 
-                Go back
-            </button>
-          </div> 
+          <GoBack url={'/menu'} />
       </div> 
     )};
 

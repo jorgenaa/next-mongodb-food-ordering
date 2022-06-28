@@ -6,7 +6,6 @@ const InitialState = {
   quantity: 0,
 } as Cart;
 
-
 const cartSlice = createSlice({
     name: "cart",
     initialState: InitialState,
