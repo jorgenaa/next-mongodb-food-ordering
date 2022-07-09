@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { ContactInfo, Grid } from '@components/ui'
 import { googleMapUrl } from '@framework/utilities';
-import s from './homeContact.module.css'
+import s from './HomeContact.module.css'
 
 const HomeContact: FC = () => {
   return (

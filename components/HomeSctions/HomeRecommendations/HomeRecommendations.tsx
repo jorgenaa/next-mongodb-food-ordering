@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import ProductCard from "@components/Product/ProductCard/ProductCard"
 import { Grid } from "@components/ui"
-import s from './homeRecommendations.module.css'
+import s from './HomeRecommendations.module.css'
 
 interface props {
     path: string
