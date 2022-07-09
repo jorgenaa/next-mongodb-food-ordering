@@ -6,7 +6,7 @@ interface Heading {
     classType: string
 }
 
-const Heading: FC<Heading> = ({title, classType}) => {
+const Heading: FC<Heading> = ({title= "", classType}) => {
   const headingClass = `${s.heading} ${classType}`;
   return (
     <h1 className={headingClass}>{title}</h1>

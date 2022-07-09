@@ -16,7 +16,7 @@ const Menu = ({ uniqueProducts, filteredProducts, categoryTitle }: InferGetStati
 
     return (
         <div className={s.menu}>
-            <Heading title={categoryTitle} classType={s.menu__heading} />
+            <Heading title={categoryTitle.category_title} classType={s.menu__heading} />
             <Grid classType={s['menu__grid-two']}>
                 <CategoryMenuNav uniquePath={path} uniqueProducts={uniqueProducts} />
                 <div className={""}>
@@ -49,7 +49,7 @@ export const getStaticProps: GetStaticProps = async () => {
           props: {
               uniqueProducts: slugs,
               filteredProducts: filterProducts,
-              categoryTitle: uniqueSlug.category_title
+              categoryTitle: uniqueSlug,
           },
           revalidate: 1
       };
