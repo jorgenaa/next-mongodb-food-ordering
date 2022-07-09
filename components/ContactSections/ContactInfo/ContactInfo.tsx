@@ -2,7 +2,6 @@ import { FC } from 'react'
 import { Text } from "@components/ui";
 import { BsTelephone } from "react-icons/bs"
 import { HiOutlineMail } from "react-icons/hi"
-import { Heading } from '@sajari/react-components';
 import s from "./ContactInfo.module.css"
 
 const ContactInfo: FC = () => {
