@@ -11,7 +11,7 @@
 }
 
 .homeRecommendations__grid-four {
-    @apply grid-cols-4 grid-rows-1 max-w-screen-xl grid grid-flow-row gap-4 ml-4;
+    @apply grid-cols-4 grid-rows-1 max-w-screen-xl grid grid-flow-row gap-4;
 }
 
 @media screen and (max-width: 768px) {

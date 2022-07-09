@@ -7,12 +7,13 @@ import { ActiveLink, Button } from '@components/ui'
 
 interface Props {
   product: any //Product
-  path: any
+  path: string
 }
 
 const placeholderImage = '/product-image-placeholder.svg'
 
 const ProductCard: NextPage<Props> = ({ product, path }) => {
+
   return (
     <ActiveLink
       activeClassName={''}
@@ -20,14 +21,15 @@ const ProductCard: NextPage<Props> = ({ product, path }) => {
       as={`${path}product/${product._id}`}
     >
       <a className={`${styles['card']} ${styles['card--hover']}`}>
-        <Image
-          className={`${styles['card__img']} ${styles['card__img--hover']}`}
-          src={placeholderImage}
-          alt={product.alt}
-          width={280}
-          height={280}
-          layout='responsive'
-        />
+        <div className={styles['card__img-wrapper']}>
+          <Image
+            className={`${styles['card__img']} ${styles['card__img--hover']}`}
+            src={placeholderImage}
+            alt={product.alt}
+            layout='fill'
+            objectFit='cover' 
+          />
+        </div>
 
         <div className={styles.card__body}>
           <h3 className={styles.card__title}>{product.title}</h3>
