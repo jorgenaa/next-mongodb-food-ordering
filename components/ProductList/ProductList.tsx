@@ -6,15 +6,14 @@ import ProductCard from "../Product/ProductCard/ProductCard";
 interface Props {
   products: any 
   path: string
-  size: string
 }
 
-const ProductList: NextPage<Props> = ({ products, path, size }) => {
+const ProductList: NextPage<Props> = ({ products, path }) => {
   return (
       <>
         <div className={s['productlist']}>
           {products.map((product: any) => (
-              <ProductCard key={product._id} product={product} path={path} size={size} />
+              <ProductCard key={product._id} product={product} path={path} />
           ))}
         </div>
       </>
