@@ -24,7 +24,7 @@
 }
 
 .form__btn {
-    @apply w-full bg-black text-white rounded-md border-none font-medium cursor-pointer transition ease-in-out duration-150 h-[40px];
+    @apply w-full bg-black text-white rounded-md border-none font-medium cursor-pointer transition ease-in-out duration-150 h-10;
 }
 
 .form__btn--hover:hover {

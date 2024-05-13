@@ -29,7 +29,7 @@
 }
 
 .cartSideBar__checkoutBtn {
-  @apply w-full mb-4 rounded-md bg-green text-white border-none font-medium cursor-pointer transition ease-in-out duration-150 h-[40px];
+  @apply w-full mb-4 rounded-md bg-green text-white border-none font-medium cursor-pointer transition ease-in-out duration-150 h-10;
 }
 
 .cartSideBar__checkoutBtn--hover:hover {
@@ -37,7 +37,7 @@
 }
 
 .cartSideBar__buyMoreBtn {
-  @apply w-full rounded-md bg-accents-8 text-white border-none font-medium cursor-pointer h-[40px];
+  @apply w-full rounded-md bg-accents-8 text-white border-none font-medium cursor-pointer h-10;
 }
 
 .cartSideBar__buyMoreBtn--hover:hover {
