@@ -40,8 +40,7 @@
 }
 
 .productItem__checkoutBtn {
-  @apply w-full mb-4 rounded-md bg-green text-white border-none font-medium cursor-pointer;
-  height: 40px;
+  @apply w-full mb-4 rounded-md bg-green text-white border-none font-medium cursor-pointer h-[40px];
 }
 
 .productItem__checkoutBtn--hover:hover {
@@ -49,8 +48,7 @@
 }
 
 .productItem__buyMoreBtn {
-  @apply w-full rounded-md bg-black text-white border-none font-medium cursor-pointer;
-  height: 40px;
+  @apply w-full rounded-md bg-black text-white border-none font-medium cursor-pointer h-[40px];
 }
 
 .productItem__buyMoreBtn--hover:hover {

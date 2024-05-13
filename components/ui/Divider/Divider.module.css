@@ -1,4 +1,3 @@
 .divider {
-    @apply w-full border-separate border-b mx-auto;
-    max-width: 1366px;
+    @apply w-full border-separate border-b mx-auto max-w-[1366px];
 }

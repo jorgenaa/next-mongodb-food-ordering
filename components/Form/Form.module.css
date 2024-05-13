@@ -1,7 +1,5 @@
 .form {
-    @apply w-full flex justify-center flex-col mx-auto p-8 ;
-    max-width: 500px;
-   
+    @apply w-full flex justify-center flex-col mx-auto p-8 max-w-[500px];
 }
 
 .form__title {
@@ -9,8 +7,7 @@
 }
 
 .form__element {
-    margin: 10px 0;
-	width: 100%;
+    @apply my-2.5 w-full;
 }
 
 .form__input {
@@ -23,13 +20,11 @@
 }
 
 .form__textArea {
-    @apply border border-black rounded-md mb-2 p-2 w-full text-base;
-    height: 150px;
+    @apply border border-black rounded-md mb-2 p-2 w-full text-base h-[150px];
 }
 
 .form__btn {
-    @apply w-full bg-black text-white rounded-md border-none font-medium cursor-pointer transition ease-in-out duration-150;
-    height: 40px;
+    @apply w-full bg-black text-white rounded-md border-none font-medium cursor-pointer transition ease-in-out duration-150 h-[40px];
 }
 
 .form__btn--hover:hover {

@@ -1,13 +1,10 @@
 
 .categoryMenuNav {
-    @apply p-4 bg-secondary text-white mx-auto ; 
+    @apply p-4 bg-secondary text-white mx-auto min-w-[300px] max-h-[550px] rounded-md; 
     /* background-image:  url("../../assets/bgTexture.svg");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: 100%; */
-    min-width: 300px;
-    max-height: 550px;
-    border-radius: 5px;
 }
 
 .categoryMenuNav__toggleBtn-wrapper {
@@ -43,28 +40,27 @@
     @apply border-b-2 border-lime-500 delay-75 duration-100 text-lime-500 ;
 }
 
-@media screen and (max-width: 945px) {
-    .categoryMenuNav {
-        @apply w-full mb-4;
-        max-width: 576px;
-    }
 
-    .categoryMenuNav__link {
-        @apply ml-14;
-    }
-
-    .categoryMenuNav__toggleBtn-wrapper {
-        @apply flex justify-between items-center;
-    }
-
-    .categoryMenuNav__inner--open {
-        @apply block;
-    }
-    .categoryMenuNav__inner--close {
-        @apply hidden;
-     }
-    
+.categoryMenuNav {
+    @apply md:w-full md:mb-4 md:max-w-[576px];
 }
+
+.categoryMenuNav__link {
+    @apply md:ml-14;
+}
+
+.categoryMenuNav__toggleBtn-wrapper {
+    @apply md:flex md:justify-between md:items-center;
+}
+
+.categoryMenuNav__inner--open {
+    @apply md:block;
+}
+.categoryMenuNav__inner--close {
+    @apply md:hidden;
+    }
+    
+
 
 /* @media screen and (max-width: 768px) {
     .CategoryMenuNav {
@@ -73,9 +69,8 @@
     
 } */
 
-@media screen and (max-width: 500px) {
-    .categoryMenuNav {
-        max-height: 600px;
-    }
+
+.categoryMenuNav {
+    @apply sm:max-h-[600px]; 
+}
    
-} 

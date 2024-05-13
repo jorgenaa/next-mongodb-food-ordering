@@ -3,8 +3,7 @@
 }
 
 .compliance__section {
-    @apply mx-auto;
-    max-width: 1366px;
+    @apply mx-auto max-w-[1366px];
 }
 
 .compliance__heading {
@@ -20,9 +19,7 @@
 }
 
 .compliance__text {
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-    margin-bottom: 1rem;
+    @apply leading-6 tracking-wider mb-4;
 }
 
 .compliance__divider {

@@ -3,7 +3,5 @@
 }
 
 .wrapper {
-    @apply w-full flex-1 mt-0 mx-auto mb-8 relative;
-    //max-width: 1366px;
-    min-height: 100vh;
+    @apply w-full flex-1 mt-0 mx-auto mb-8 relative min-h-[100vh] max-w-[1366px];
 }

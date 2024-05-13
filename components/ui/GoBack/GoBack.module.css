@@ -7,8 +7,7 @@
 }
 
 .btn {
-    @apply w-28 ml-2 text-white border-none font-medium cursor-pointer transition ease-in-out duration-150;
-    height: 40px;
+    @apply w-28 ml-2 text-white border-none font-medium cursor-pointer transition ease-in-out duration-150 h-10;
 }
 
 .btn--black {

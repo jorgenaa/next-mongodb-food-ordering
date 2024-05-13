@@ -19,11 +19,7 @@
 }
 
 .homeAbout__img {
-    @apply rounded-full w-40 h-40 lg:w-60 lg:h-60 xl:w-80 xl:h-80;
-    background-image: url("../../../assets/images/sashimi_.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @apply rounded-full w-40 h-40 lg:w-60 lg:h-60 xl:w-80 xl:h-80 bg-homeAbout-img bg-no-repeat bg-blend-multiply bg-center bg-cover;
 }
 
 .homeAbout__img-container {

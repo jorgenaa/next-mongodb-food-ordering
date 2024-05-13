@@ -7,42 +7,27 @@
 }
 
 .card__img-wrapper {
-    position: relative;
-    width: 100%;
-    height: 280px;
+    @apply relative w-full h-[288px];
 }
 
 .card__img {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px; 
-    object-position: center;
-    display: block;
-    max-width: 100%;
+    @apply rounded-t-md top-0 right-0 bottom-0 left-0 object-center block max-w-[100%];
 }
 
 .card__img--hover:hover {
-    transform: scale(1.15);
-  
+    @apply scale-150;
 }
 
 .card__body {
-    @apply flex flex-col content-between text-center px-2;
-    min-height: 120px;
+    @apply flex flex-col content-between text-center px-2 min-h-[120px];
 }
 
 .card__title {
-    @apply font-medium pt-1 flex-auto self-start mt-2 mx-auto;
-    line-height: 1.5em;
-    letter-spacing: 0.5px;
+    @apply font-medium pt-1 flex-auto self-start mt-2 mx-auto leading-6 tracking-wider;
 }
 
 .card__price {
-    @apply font-semibold text-base mx-auto self-end mb-4;
-    letter-spacing: 0.5px;
+    @apply font-semibold text-base mx-auto self-end mb-4 tracking-wider;
 }
 
 .card__icon {

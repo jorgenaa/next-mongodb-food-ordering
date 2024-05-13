@@ -6,9 +6,7 @@
 
 @media screen and (max-width: 945px) {
    .productlist {
-      @apply mx-auto grid-cols-2;
-      max-width: 576px;
-      
+      @apply mx-auto grid-cols-2 msx-w-[576px];
    }
 }
 

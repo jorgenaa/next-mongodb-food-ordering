@@ -1,5 +1,3 @@
 .text {
-    letter-space: 0.5;
-    line-height: 1.5;
-    max-width: 60ch;
+    @apply tracking-wider leading-6 max-w-[60ch];
 }

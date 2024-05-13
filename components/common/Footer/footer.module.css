@@ -1,18 +1,11 @@
 .footer {
-    @apply flex justify-center items-center p-4 bg-stone-900;
-    min-height: 30vh;
-    background-image:  url("../../../assets/bgTexture.svg");
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-size: 100%;
-    width: 100%;
-    color: theme("colors.white")
+    @apply flex justify-center items-center p-4 bg-stone-900 min-h-[30vh] bg-img bg-no-repeat bg-blend-multiply bg-cover w-full text-white;
+    /* background-image:  url("../../../assets/bgTexture.svg"); */
 }
 
 .footer__container {
     @apply flex justify-evenly items-start w-full;
 }
-
 
 .footer__listItem {
     @apply mb-2 border-b-0;
@@ -23,16 +16,14 @@
 }
 
 .footer__listTitle {
-    @apply font-semibold;
-    letter-spacing: 1px;
+    @apply font-semibold tracking-[1px];
 }
 
 .footer__span {
-    padding-right: 4px;
+    @apply pr-1;
 }
 
 @media screen and (max-width: 900px) {  
-
     .footer {
         @apply items-start ;
     }
@@ -48,6 +39,6 @@
 
 @media screen and (max-width: 678px) {
     .footer {
-        @apply flex-col ;
+        @apply flex-col;
     }
 }

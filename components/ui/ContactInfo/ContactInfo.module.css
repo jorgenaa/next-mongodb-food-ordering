@@ -1,9 +1,7 @@
 
 
 .contact__section {
-    @apply mx-auto text-lg p-8 text-white bg-secondary rounded-l-md;
-    max-width: 500px;
-    width: 100%;
+    @apply mx-auto text-lg p-8 text-white bg-secondary rounded-l-md msx-w-[500px] w-full;
 }
 
 .contact__list {
@@ -15,8 +13,7 @@
 }
 
 .contact__text {
-    @apply text-lg inline-block;
-    line-height: 2rem;
+    @apply text-lg inline-block leading-8;
 }
 
 .contact__listTitle {
@@ -25,13 +22,11 @@
 
 
 .contact__icon {
-    @apply inline-block pr-4;
-    line-height: 2rem;
+    @apply inline-block pr-4 leading-8;
 }
 
 @media screen and (max-width: 768px) {
     .contact__section {
-        @apply w-full rounded-bl-md rounded-br-md rounded-l-none;
-        max-width: 768px;
+        @apply w-full rounded-bl-md rounded-br-md rounded-l-none max-w-[768px];
     }
 }

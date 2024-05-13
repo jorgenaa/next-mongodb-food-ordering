@@ -1,11 +1,9 @@
 .conditions {
-    @apply grid-cols-1 grid-rows-1 max-w-screen-lg items-center mx-auto my-8  px-8;
+    @apply grid-cols-1 grid-rows-1 max-w-screen-lg items-center mx-auto my-8 px-8;
 }
 
 .conditions__section {
-    @apply mx-auto;
-    
-    max-width: 1366px;
+    @apply mx-auto max-w-[1366px];
 }
 
 .conditions__heading {
@@ -17,8 +15,7 @@
 }
 
 .conditions__text {
-    line-height: 1.5;
-    letter-spacing: 0.5px;
+    @apply leading-6 tracking-wider;
 }
 
 .conditions__divider {
